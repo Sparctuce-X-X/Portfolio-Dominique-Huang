@@ -472,3 +472,11 @@ img {
 }
 
 
+.contact__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* pour garder l’empilement vertical */
+  min-height: 80vh; /* pour bien occuper la hauteur */
+  text-align: center;
+}

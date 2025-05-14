@@ -22,11 +22,12 @@
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">Acceuil</a></li>
+                        <li class="nav__item"><a href="#home" class="nav__link">Accueil</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">A Propos</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Compétences</a></li>
                         <li class="nav__item"><a href="#work" class="nav__link">Travail</a></li>
-                    </ul>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>                    
                 </div>
 
                 <div class="nav__toggle" id="nav-toggle">
@@ -87,26 +88,65 @@
                     <div>
                         <h2 class="skills__subtitle">Compétences Professionnelles</h2>
                         <p class="skills__text">
-                            En tant que développeur web full stack, je maîtrise un large éventail de technologies front-end et back-end, me permettant de créer des applications web robustes, performantes et centrées utilisateur.
+                            En tant que développeur web expérimenté, je maîtrise un ensemble de technologies front-end et back-end me permettant de concevoir des applications web modernes, performantes et centrées utilisateur.
                         </p>
                 
-                        <ul class="skills__list">
-                            <li><i class='bx bxl-html5 skills__icon'></i> HTML5 / CSS3 / Responsive Design</li>
-                            <li><i class='bx bxl-javascript skills__icon'></i> JavaScript (ES6+), TypeScript</li>
-                            <li><i class='bx bxl-react skills__icon'></i> React.js / Next.js</li>
-                            <li><i class='bx bxl-nodejs skills__icon'></i> Node.js / Express.js</li>
-                            <li><i class='bx bxs-data skills__icon'></i> Bases de données : MongoDB / PostgreSQL</li>
-                            <li><i class='bx bx-git-branch skills__icon'></i> Git / GitHub / Intégration continue</li>
-                            <li><i class='bx bxs-paint skills__icon'></i> UI/UX & Design Systems (Figma, Tailwind CSS)</li>
-                        </ul>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5 / CSS3 / Responsive Design</span>
+                            </div>
+                        </div>
+                
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon'></i>
+                                <span class="skills__name">JavaScript (ES6+), TypeScript</span>
+                            </div>
+                        </div>
+                
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-react skills__icon'></i>
+                                <span class="skills__name">React.js / Next.js</span>
+                            </div>
+                        </div>
+                
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-nodejs skills__icon'></i>
+                                <span class="skills__name">Node.js / Express.js</span>
+                            </div>
+                        </div>
+                
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-data skills__icon'></i>
+                                <span class="skills__name">Bases de données : MongoDB / PostgreSQL</span>
+                            </div>
+                        </div>
+                
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-git-branch skills__icon'></i>
+                                <span class="skills__name">Git / GitHub / Intégration continue</span>
+                            </div>
+                        </div>
+                
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">UI/UX & Design Systems (Figma, Tailwind CSS)</span>
+                            </div>
+                        </div>
                     </div>
-                    
+                
                     <div>              
                         <img src="assets/img/ed83b2dd246f79cc-sticker.png" alt="" class="skills__img">
                     </div>
                 </div>
                 
-
+            </section>
             <section class="work section" id="work">
                 <h2 class="section-title">Travail</h2>
 
@@ -132,6 +172,18 @@
                 </div>
             </section>
 
+            <section class="section" id="contact">
+                <div class="contact__container bd-grid">
+                  <form action="https://formspree.io/f/mqaqwzqn" method="POST" class="contact__form">
+                    <input type="text" name="name" placeholder="Votre nom" class="contact__input" required>
+                    <input type="email" name="email" placeholder="Votre email" class="contact__input" required>
+                    <textarea name="message" placeholder="Votre message" rows="10" class="contact__input" required></textarea>
+                    <button type="submit" class="contact__button button">Envoyer</button>
+                  </form>
+                </div>
+              </section>
+              
+
          
         </main>
 
@@ -142,7 +194,6 @@
                 <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
                 <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
             </div>
-            <p class="footer__copy">&#169; DominiqueHuang. All rigths reserved</p>
         </footer>
 
 
